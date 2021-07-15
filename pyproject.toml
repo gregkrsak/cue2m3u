@@ -21,6 +21,7 @@ isort = "^5.9.2"
 mypy = "^0.910"
 pep8-naming = "^0.12.0"
 pre-commit = "^2.13.0"
+pytest = "^6.2.4"
 tox = "^3.24.0"
 
 [tool.isort]
