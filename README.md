@@ -58,6 +58,16 @@ To run just the unit tests, use
 $ poetry run tox -e unit
 ```
 
+### CI
+
+While the local use of both [pre-commit] and [tox] are encouraged, it is not
+required. Both style and test enforcement will be run as part of CI on [GitHub
+Actions][actions].
+
+**NOTE:** CI will not update the pull request with changes made by [pre-commit].
+You will need to add these to your code yourself.
+
+[actions]: https://docs.github.com/en/actions
 [pip]: https://pip.pypa.io
 [poetry]: https://python-poetry.org
 [pre-commit]: https://pre-commit.com
