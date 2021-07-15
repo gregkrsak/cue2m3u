@@ -37,6 +37,22 @@ create a new commit.
 
 There are no additional style restrictions on the code.
 
+### Testing
+
+Testing is controlled via [tox]. If you wish to invoke it directly, it is
+installed as a development dependency by [poetry] and can be invoked with
+
+```
+$ poetry run tox
+```
+
+To have [tox] only perform static type checking of the code run
+
+```
+$ poetry run tox -e types
+```
+
 [pip]: https://pip.pypa.io
 [poetry]: https://python-poetry.org
 [pre-commit]: https://pre-commit.com
+[tox]: https://tox.readthedocs.io
