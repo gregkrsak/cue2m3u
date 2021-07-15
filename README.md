@@ -52,6 +52,12 @@ To have [tox] only perform static type checking of the code run
 $ poetry run tox -e types
 ```
 
+To run just the unit tests, use
+
+```
+$ poetry run tox -e unit
+```
+
 [pip]: https://pip.pypa.io
 [poetry]: https://python-poetry.org
 [pre-commit]: https://pre-commit.com
