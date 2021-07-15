@@ -27,5 +27,16 @@ information, run
 $ poetry run generate --help
 ```
 
+## Development
+
+### Code style
+
+This code base uses [pre-commit] to control apply stylistic restraints. If you
+have it installed globally, [pre-commit] will automatically run whenever you
+create a new commit.
+
+There are no additional style restrictions on the code.
+
 [pip]: https://pip.pypa.io
 [poetry]: https://python-poetry.org
+[pre-commit]: https://pre-commit.com
