@@ -20,7 +20,7 @@ jobs:
         with:
           python-version: 3.9
 
-      - uses: pre-commit/action@v2.0.0
+      - uses: pre-commit/action@v2.0.3
 
   tox:
     name: ${{ matrix.toxenv }}
