@@ -22,7 +22,7 @@ mypy = "^0.910"
 pep8-naming = "^0.12.0"
 pre-commit = "^2.13.0"
 pytest = "^6.2.4"
-tox = "^3.24.0"
+tox = "^3.24.1"
 
 [tool.isort]
 add_imports = "from __future__ import annotations"
