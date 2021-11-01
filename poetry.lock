@@ -104,7 +104,7 @@ python-versions = "*"
 
 [[package]]
 name = "flake8"
-version = "4.0.0"
+version = "4.0.1"
 description = "the modular source code checker: pep8 pyflakes and co"
 category = "dev"
 optional = false
@@ -426,7 +426,7 @@ testing = ["coverage (>=4)", "coverage-enable-subprocess (>=1)", "flaky (>=3)", 
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.9"
-content-hash = "87c7f6f9a7cc137860301ee6cf6f4840e6111ea3c759815648aee7266fd84375"
+content-hash = "4dfbaed3978635c28512dab4107d829e208df799f4b95c1ecb9f78094e5d34d5"
 
 [metadata.files]
 atomicwrites = [
@@ -466,8 +466,8 @@ filelock = [
     {file = "filelock-3.0.12.tar.gz", hash = "sha256:18d82244ee114f543149c66a6e0c14e9c4f8a1044b5cdaadd0f82159d6a6ff59"},
 ]
 flake8 = [
-    {file = "flake8-4.0.0-py2.py3-none-any.whl", hash = "sha256:124554bfd067e04d891258c0208a764b512ca3a94c8a3c06bea56af539dd74db"},
-    {file = "flake8-4.0.0.tar.gz", hash = "sha256:b52d27e627676b015340c3b1c72bc9259a6cacc9341712fb8f01ddfaaa2c651a"},
+    {file = "flake8-4.0.1-py2.py3-none-any.whl", hash = "sha256:479b1304f72536a55948cb40a32dce8bb0ffe3501e26eaf292c7e60eb5e0428d"},
+    {file = "flake8-4.0.1.tar.gz", hash = "sha256:806e034dda44114815e23c16ef92f95c91e4c71100ff52813adf7132a6ad870d"},
 ]
 flake8-bugbear = [
     {file = "flake8-bugbear-21.9.2.tar.gz", hash = "sha256:db9a09893a6c649a197f5350755100bb1dd84f110e60cf532fdfa07e41808ab2"},
